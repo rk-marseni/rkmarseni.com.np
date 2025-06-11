@@ -1,10 +1,10 @@
 import React from "react";
 import Layout from "../Layout/Layout";
 
-function Experience() {
+function Development() {
   return <Layout>
-  You are in experience page.
+  {/* You are in experience page. */}
   </Layout>;
 }
 
-export default Experience;
+export default Development;

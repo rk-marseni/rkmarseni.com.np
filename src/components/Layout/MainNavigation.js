@@ -4,12 +4,11 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 function MainNavigation() {
   let [open, setOpen] = useState(false);
-  // w-3/4 m-auto px-4 py-6 flex justify-between xl:w-3/4 md:w-11/12 sm:w-full
   const links = [
     { name: "HOME", to: "/" },
     { name: "RESEARCH", to: "/research" },
     { name: "TEACHING", to: "/teaching" },
-    { name: "DEVELOPMENT", to: "/experience" },
+    { name: "DEVELOPMENT", to: "/development" },
     { name: "CONTACT", to: "/contact" },
   ];
   return (
